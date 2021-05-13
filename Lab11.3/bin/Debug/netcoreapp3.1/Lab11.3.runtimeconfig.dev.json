@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\jpallone\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\jpallone\\.nuget\\packages"
+    ]
+  }
+}

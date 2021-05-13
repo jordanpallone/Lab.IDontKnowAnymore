@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1 class="heading2">Join the Coffee Cult!</h1>
+
+<form method="post" action="/home/RegisterResponse">
+    <br />
+    <input type="text" name="firstname" class="input" placeholder="First Name" required/>    <input type="text" name="lastname" class="input" placeholder="Last Name" required /><br />
+    <input type="email" name="email" class="input" placeholder="Email Address" required /> <input type="tel" name="pnum" class="input" placeholder="Phone Number" required /><br />
+    <input type="password" name="password" class="input" placeholder="Password" required /> <input type="password" name="confirmpassword" class="input" placeholder="Confirm Password" required /><br />
+    <input type="checkbox" name="privacy" class="ppol" required /><label> I agree to the<a href="/home/privacy">Privacy Policy</a></label> <br />
+    <input type="submit" class="submit" />
+</form>
+
