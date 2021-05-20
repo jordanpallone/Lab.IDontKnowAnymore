@@ -1,0 +1,15 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Menu";
+}
+
+<h1 class="heading2">Menu</h1>
+
+<div class="menulist">
+    @foreach (Product prod in Model)
+    {
+    <a class="menulink" href="/home/detail/@prod.id">@prod.name: $@prod.price</a> 
+        
+        <br />
+    }
+</div>

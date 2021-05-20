@@ -6,11 +6,16 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Dapper.Contrib.Extensions;
+using MySql.Data.MySqlClient;
 
 namespace Lab11._3.Controllers
 {
     public class HomeController : Controller
     {
+
+        static MySqlConnection db = new MySqlConnection("Server=localhost;Database=coffeecult;Uid=root;Password=abc123");
+
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -41,6 +46,19 @@ namespace Lab11._3.Controllers
             ViewData["EM"] = email;
             ViewData["PN"] = pnum;
             return View();
+        }
+
+        public IActionResult Menu()
+        {
+            List<Product> prod = db.GetAll<Product>().ToList();
+            return View(prod);
+        }
+
+        [HttpGet]
+        public IActionResult detail(int id)
+        {
+            Product prod = db.Get<Product>(id);
+            return View(prod);
         }
 
         public IActionResult Privacy()
