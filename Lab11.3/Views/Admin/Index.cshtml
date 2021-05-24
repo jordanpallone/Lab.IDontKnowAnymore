@@ -1,0 +1,19 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="heading2">Product List</h1>
+
+<div class="adminlist">
+    @foreach (Product prod in Model)
+    {
+        <a class="adminlink" href="/admin/detail/@prod.id">@prod.name</a>
+        <a class="adminlink" href="/admin/editform/@prod.id">EDIT</a>
+        <a class="adminlink" href="/admin/delete/@prod.id">DELETE</a>
+        <br />
+    }
+
+    <br />
+    <a class="adminlink" href="/admin/addform">ADD</a>
+</div>

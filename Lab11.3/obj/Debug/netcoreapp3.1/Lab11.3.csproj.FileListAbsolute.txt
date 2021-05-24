@@ -125,3 +125,7 @@ C:\Users\jpallone\dev\Lab11.3\Lab11.3\bin\Debug\netcoreapp3.1\System.Security.Cr
 C:\Users\jpallone\dev\Lab11.3\Lab11.3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\jpallone\dev\Lab11.3\Lab11.3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Menu.cshtml.g.cs
 C:\Users\jpallone\dev\Lab11.3\Lab11.3\obj\Debug\netcoreapp3.1\Razor\Views\Home\detail.cshtml.g.cs
+C:\Users\jpallone\dev\Lab11.3\Lab11.3\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\jpallone\dev\Lab11.3\Lab11.3\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Detail.cshtml.g.cs
+C:\Users\jpallone\dev\Lab11.3\Lab11.3\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditForm.cshtml.g.cs
+C:\Users\jpallone\dev\Lab11.3\Lab11.3\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AddForm.cshtml.g.cs

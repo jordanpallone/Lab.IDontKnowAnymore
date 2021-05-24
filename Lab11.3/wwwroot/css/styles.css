@@ -14,6 +14,8 @@ nav {
     border-width: 5px;
     padding: 5px 10px;
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 25px;
 }
 
 a {
@@ -187,4 +189,60 @@ div {
     color: #38220f;
     margin-top: 35px;
     line-height: 200%;
+}
+
+.adminlist {
+    width: 500px;
+    height: 550px;
+    border-style: solid;
+    margin-left: 32%;
+    margin-right: 50%;
+    background-color: #ece0d1;
+    border-color: #38220f;
+    border-radius: 15px;
+    display: grid;
+}
+
+.adminlink {
+    text-decoration: none;
+    text-align: center;
+    color: #38220f;
+    font-weight: bold;
+}
+
+    .adminlink:hover {
+        color: #dbc1ac;
+    }
+
+.heading3 {
+    color: #634832;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-left: 720px;
+}
+
+.menudeet {
+    text-align: left;
+    color: #38220f;
+    margin-left: 10%;
+}
+
+.pclass {
+    color: #38220f;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+.input2 {
+    background-color: #38220f;
+    color: #ece0d1;
+    margin-right: 150px;
+    display: inline-block;
+    float: right;
+}
+
+.subbtn {
+    color: #ece0d1;
+    background-color: #967259;
+    margin-left: 35px;
 }
